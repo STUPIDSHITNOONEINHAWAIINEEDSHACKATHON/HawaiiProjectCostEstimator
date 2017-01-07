@@ -3,8 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <title>Hawaii Project Cost Estimator</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 </head>
 <body>
-  Stub text!
+  <div class="heading type">
+    Project type:
+  </div>
+  <div class="content type">
+    <p>
+      What type of project is this?
+    </p>
+    <input type="radio" name="projectType" value="new">New project<br/>
+    <input type="radio" name="projectType" value="existing">Maintain existing project    
+  </div>
+  <div class="heading design">
+    Project design:
+  </div>
+  <div class="content design">
+    <p>
+      What type of web design is involved?
+    </p>
+    <input type="radio" name="design" value="none">None<br/>
+    <input type="radio" name="design" value="css">CSS<br/>
+    <input type="radio" name="design" value="scss">SCSS<br/>
+    <input type="radio" name="design" value="framework">Framework (foundation, bootstrap, etc)<br/>
+
+    <p>
+      <input type="checkbox" name="responsive">This site is mobile responsive
+    </p>    
+  </div>
+  <div class="heading backend">
+    Backend:
+  </div>
+  <div class="content design">
+    <p>
+      How many milestones are planned?
+      <input type="text" name="milestones" value="10"/>
+    </p>
+    <p>
+      How long is each milestone expected to take?
+      <input type="text" name="milestoneTimeVal" value="1"/>
+      <input type="radio" name="milestoneTimeUnit" value="day">day(s)<br/>
+      <input type="radio" name="milestoneTimeUnit" value="week">week(s)<br/>
+      <input type="radio" name="milestoneTimeUnit" value="month">month(s)<br/>
+      <input type="radio" name="milestoneTimeUnit" value="year">year(s)<br/>
+    </p>
+
+    <p>
+      <input type="checkbox" name="state">State agencies are involved
+    </p>
+    <p>
+      <input type="checkbox" name="hawaiianTime">Project is run on 'hawaiian time'
+    </p>
+  </div>
+  <div class="heading testing">
+    Testing:
+  </div>
+  <div class="content testing">
+    <p>
+      How much testing is involved?
+      <input type="radio" name="testing" value="none">None<br/>
+      <input type="radio" name="testing" value="basic">Basic<br/>
+      <input type="radio" name="testing" value="thorough">Thorough<br/>
+      <input type="radio" name="testing" value="overthorough">We're writing a test suite<br/>
+    </p>
+  </div>
+  <div class="heading testing">
+    Dev Ops:
+  </div>
+  <div class="content testing">
+    <p>
+      Dev Ops team?
+      <input type="radio" name="testing" value="none">No<br/>
+      <input type="radio" name="testing" value="basic">Outsource<br/>
+      <input type="radio" name="testing" value="thorough">Yes<br/>
+    </p>
+  </div>
+
+
+
+
+<!--
+from scratch? or maintaining an existing site
+  - make maintaining 3x more
+
+design?
+  - no design: x0 - 
+  - basic design, no CSS: x1
+  - CSS: x2
+  - SCSS: x3
+  - framework like bootstrap, foundation: x5
+
+  - mobile responsive: x2 whatever is chosen above
+
+marketing?
+
+engineering?
+  how many milestones
+    - berate user if <5 is chosen
+  iterative time per milestone
+    - actually take verbatim but multiply at end
+  Are state agencies involved?
+    double time estimate if so
+
+  Is this project run on 'hawaiian time'
+    - x2 or x3 estimates
+
+testing?
+  eh, who tests anyways
+    but tack on 50% just for good faith
+
+requires a dev ops team?
+  estimated # of fires
+
+  or outsource and add 10k for hosting and a dev team
+
+
+
+take time estimate
+  double #, increase units order of magnitude by 1
+
+take hourly rate
+  say its too low and increase it randomly
+  -->
+
 </body>
 </html>
