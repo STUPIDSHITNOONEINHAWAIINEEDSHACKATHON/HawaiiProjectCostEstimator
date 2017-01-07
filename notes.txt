@@ -1,0 +1,50 @@
+
+pitch for 1 minute
+  find keywords
+  find keywords and multipliers
+    responsive
+    mobile
+    website
+    
+from scratch? or maintaining an existing site
+  - make maintaining 3x more
+
+design?
+  - no design: x0 - 
+  - basic design, no CSS: x1
+  - CSS: x2
+  - SCSS: x3
+  - framework like bootstrap, foundation: x5
+
+  - mobile responsive: x2 whatever is chosen above
+
+marketing?
+
+engineering?
+  how many milestones
+    - berate user if <5 is chosen
+  iterative time per milestone
+    - actually take verbatim but multiply at end
+  Are state agencies involved?
+    double time estimate if so
+
+  Is this project run on 'hawaiian time'
+    - x2 or x3 estimates
+
+testing?
+  eh, who tests anyways
+    but tack on 50% just for good faith
+
+requires a dev ops team?
+  estimated # of fires
+
+  or outsource and add 10k for hosting and a dev team
+
+
+
+take time estimate
+  double #, increase units order of magnitude by 1
+
+take hourly rate
+  say its too low and increase it randomly
+

@@ -1,0 +1,9 @@
+I want to build a website to handle the budget system for the state of hawaii. It should have 10,000 users and be able to concurrently handle all offices all the time.  Maintenance will happen nightly at 3am and funding will be funded by taxpayer dollars.  The project is simple and should not go over budget.
+
+Website
+budget
+state
+concurrent
+maintenance
+taxpayer
+simple
