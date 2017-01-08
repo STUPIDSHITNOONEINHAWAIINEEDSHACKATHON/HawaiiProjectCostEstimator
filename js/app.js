@@ -207,8 +207,23 @@ function CalculateCost() {
 
   $("#total").text(total);
 
+  OhShit();
 }
 
+function OhShit() {
+  $(".content").hide(true);
+
+  $(".heading").hide(true);
+
+
+  $("#theresult").wrapInner("<h1></h1>");
+
+  $("#process").wrapInner("<h6></h6>");
+  $("#debug").wrapInner("<h6></h6>");
+
+  $("#theresult").addClass("redtext");
+  $("#theresult").addClass("blink_me");
+}
 
 function AddThoughtProcess(text) {
   var newItem = $("<p></p>").text(text);
