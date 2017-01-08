@@ -216,13 +216,24 @@ function OhShit() {
   $(".heading").hide(true);
 
 
-  $("#theresult").wrapInner("<h1></h1>");
 
   $("#process").wrapInner("<h6></h6>");
   $("#debug").wrapInner("<h6></h6>");
 
   $("#theresult").addClass("redtext");
   $("#theresult").addClass("blink_me");
+  $("#theresult").css("font-size", "150px");
+
+
+  $('body').makeItRain();
+  $('body').makeItRain();
+  $('body').makeItRain();
+  $('body').makeItRain();
+  $('body').makeItRain();
+  $('body').makeItRain();
+
+  window.scrollTo(0,0);
+
 }
 
 function AddThoughtProcess(text) {
