@@ -1,0 +1,19 @@
+.heading {
+  /*border: 1px solid black; */
+  background-color: red;
+}
+
+.content {
+  background-color: pink;
+}
+
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    }
