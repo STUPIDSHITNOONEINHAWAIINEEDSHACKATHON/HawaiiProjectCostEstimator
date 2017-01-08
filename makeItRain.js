@@ -2,7 +2,7 @@ $.fn.makeItRain = function(){
 
 		$(this).on('click',function(){
 
-			var maxBills = 50;
+			var maxBills = 50000000000000000000;
 
 
 			for (var i = 0; i < maxBills; i++){

@@ -226,11 +226,6 @@ function OhShit() {
 
 
   $('body').makeItRain();
-  $('body').makeItRain();
-  $('body').makeItRain();
-  $('body').makeItRain();
-  $('body').makeItRain();
-  $('body').makeItRain();
 
   window.scrollTo(0,0);
 
